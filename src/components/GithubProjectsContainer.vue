@@ -9,7 +9,7 @@
     <div v-else>
       <div class="grid">
         <div class="col" v-for="project in data" :key="project.id">
-          <Item 
+          <Item class="git-item"
             :title="project.name" 
             :urlLink="project.html_url" 
             :imageSrc="require('@/assets/logo.png')"

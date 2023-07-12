@@ -1,9 +1,7 @@
 <template>
     <div class="portfolio-page">
       <HeaderComponent :button1Text="button1Text" :button2Text="button2Text" :button1Route="button1Route" :button2Route="button2Route"/>
-      <p>
-        My Portfolio
-      </p>
+      <h2 class="section-title">These are my personal projects or projects from my Computer Science classes</h2>
       <GithubProjectsContainer/>
       <FooterComponent/>
     </div>
@@ -33,6 +31,10 @@
   </script>
   
   <style scoped>
+  .section-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
   .welcome-page {
     text-align: center;
     padding: 20px;

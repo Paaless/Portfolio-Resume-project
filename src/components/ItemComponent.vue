@@ -6,7 +6,7 @@
       </a>
   
       <div>    
-        <p><a :href="urlLink">{{title}}</a></p>
+        <p><a :href="urlLink" style="text-decoration: none; color:green">{{title}}</a></p>
         <div>
           <span v-for="tag in tags" v-bind:key="tag">{{tag}} <br> </span>
         </div>
@@ -25,7 +25,7 @@
       imageSrc: String,
       tags: Array,
       description: String
-    }
+    } 
   }
   </script>
   
